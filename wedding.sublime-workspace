@@ -11,24 +11,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/default.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/default.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
+				"buffer_size": 3359,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -64,10 +48,15 @@
 	},
 	"expanded_folders":
 	[
-		"/data/repos/wedding"
+		"/data/repos/wedding",
+		"/data/repos/wedding/css",
+		"/data/repos/wedding/images",
+		"/data/repos/wedding/js"
 	],
 	"file_history":
 	[
+		"/data/repos/wedding/js/default.js",
+		"/data/repos/wedding/css/default.css"
 	],
 	"find":
 	{
@@ -111,15 +100,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3359,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								557,
+								557
 							]
 						],
 						"settings":
@@ -131,62 +120,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/default.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/default.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
