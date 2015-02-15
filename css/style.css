@@ -13,8 +13,24 @@
 
 }
 
+ul {
+	list-style-type: none;
+}
+
+dl dd {
+	margin-left: 25px;
+}
+
+em {
+	font-style: italic;
+}
+
+.tbs-highlight {
+	color: purple;
+}
+
 .tbs-textarea {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   border-radius: 5px;
   padding: 4%;
   color: white;
@@ -24,6 +40,10 @@
 	padding-top: 25%;
 	padding-left: 30%;
 	font-family: Helvetica, sans-serif;
+}
+
+.tbs-content dt {
+	color: lightgray;
 }
 
 .tbs-content p {
