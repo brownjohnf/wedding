@@ -12,7 +12,9 @@
   font-style: normal;
 
 }
-
+h1, h2 {
+	font-family: 'Allura';
+}
 ul {
 	list-style-type: none;
 }
@@ -39,11 +41,10 @@ em {
 .tbs-content {
 	padding-top: 5%;
 	padding-left: 30%;
-	font-family: Helvetica, sans-serif;
 }
 
 .tbs-content dt {
-	color: lightgray;
+	color: #EED9B6;
 }
 
 .tbs-content p {
@@ -52,16 +53,16 @@ em {
 
 .tbs-content a {
 	text-decoration: none;
-	color: orange;
+	color: #471A41
 }
 
 .tbs-content a:hover {
 	text-decoration: none;
-	color: red;
+	color: #EED9B6;
 }
 
 html,body{
- 	font-family: 'BebasRegular';
+ 	font-family: 'Helvetica', sans-serif;
 	width:100%;
 	height:100%;
 }
@@ -70,6 +71,7 @@ html,body{
 	position:fixed;
 	z-index:1;
 	top:20px;
+	font-family: 'BebasRegular';
 }
 .navigation li{
 	color:#333333;
@@ -110,13 +112,19 @@ html,body{
 	margin:0 auto;
 	position:relative;
 }
-.slideno{
+.slideno {
 	position:absolute;
-	bottom:0px;
 	left:0px;
-	font-size:100px;
+	font-size:50px;
 	font-weight:bold;
 	color:rgba(255,255,255,0.3);
+	font-family: 'BebasRegular';
+}
+.slideno.top {
+	bottom:50px;
+}
+.slideno.bottom {
+	bottom:0px;
 }
 .button{
 	display:block;
@@ -137,14 +145,16 @@ html,body{
  SLIDE 1
 *******************************/
 #slide1{
-	background-color:#5c9900;
+	background-color:rgba(77,82,140,1);
+	color:rgba(238,217,182,0.8);
 
 }
 /******************************
  SLIDE 2
 *******************************/
 #slide2{
-	background-color:#005c99;
+	background-color:rgba(87,142,113,1);
+	color:rgba(255,255,255,0.5);
 
 }
 #slide2 img:first-child{
@@ -191,7 +201,8 @@ html,body{
  SLIDE 3
 *******************************/
 #slide3{
-	background-color:#b6c10b;
+	background-color:rgba(0,64,102,1);
+	color:rgba(238,217,182,0.8);
 }
 #slide3 img:first-child{
 	position:absolute;
@@ -228,7 +239,8 @@ html,body{
 *******************************/
 
 #slide4{
-	background-image:url(../images/Slide4/map.png);
+	background-color:rgba(77,79,83,0.8);
+	color:rgba(238,217,182,0.8);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
