@@ -1,0 +1,12 @@
+---
+language: ruby
+rvm:
+  - 1.8.7
+  - 2.1.2
+notifications:
+  email:
+    recipients:
+      - jack@brownjohnf.com
+      - emily@emilyschauer.com
+script:
+  - echo true
