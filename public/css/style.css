@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'BebasRegular';
+  src: url('font/BEBAS___-webfont.eot');
+  src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/BEBAS___-webfont.woff') format('woff'),
+       url('font/BEBAS___-webfont.ttf') format('truetype'),
+       url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+h1, h2 {
+	font-family: 'Allura';
+}
+ul {
+	list-style-type: none;
+}
+
+dl dd {
+	margin-left: 25px;
+}
+
+em {
+	font-style: italic;
+}
+
+.tbs-highlight {
+	color: purple;
+}
+
+.tbs-textarea {
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  padding: 4%;
+  color: white;
+}
+
+.tbs-content {
+	padding-top: 5%;
+	padding-left: 30%;
+}
+
+.tbs-content dt {
+	color: #EED9B6;
+}
+
+.tbs-content p {
+	padding-bottom: 1em;
+}
+
+.tbs-content a {
+	text-decoration: none;
+	color: #E9967A
+}
+
+.tbs-content a:hover {
+	text-decoration: none;
+	color: #F7E7CE;
+}
+
+html,body{
+ 	font-family: 'Helvetica', sans-serif;
+	width:100%;
+	height:100%;
+}
+
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:20px;
+	font-family: 'BebasRegular';
+}
+.navigation li{
+	/*color:#333333;*/
+	color: rgba(255,255,255,0.3);
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	border-bottom:1px solid rgba(255,255,255,0.3);
+	text-align:left;
+	width:110px;
+}
+.navigation li:hover,.active{
+	font-size:25px;
+	cursor:pointer;
+	width:165px!important;
+}
+.envatologo{
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:446px;
+	margin-top:-41px;
+	margin-left:-223px;
+	z-index:1;
+}
+.slide {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+.slideno {
+	position:absolute;
+	left:0px;
+	font-size:50px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+	font-family: 'BebasRegular';
+}
+.slideno.top {
+	bottom:50px;
+}
+.slideno.bottom {
+	bottom:0px;
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(../images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+.color-filter {
+	height: 100%;
+}
+
+/******************************
+ SLIDE 1
+*******************************/
+#slide1 {
+	background-image: url(../images/JackEmilyOctober.jpg);
+	background-position: 0 -750px;
+}
+#slide1 .color-filter {
+	background-color: rgba(77,82,140,0.7);
+	color: rgba(238,217,182,0.8);
+
+}
+/******************************
+ SLIDE 2
+*******************************/
+#slide2 {
+	background-image: url(../images/WeDo.jpg);
+}
+
+#slide2 .color-filter {
+	background-color: rgba(87,142,113,0.6);
+	color: rgba(238,217,182,0.8);
+
+}
+
+#slide2 img:first-child{
+	position:absolute;
+	top: 700px;
+	left: -150px;
+}
+#slide2 img:nth-child(2){
+	position:absolute;
+	top:300px;
+	left:100px;
+}
+#slide2 img:nth-child(3){
+	position:absolute;
+	top:600px;
+	left:300px;
+}
+#slide2 img:nth-child(4){
+	position:absolute;
+	top:400px;
+	left:300px;
+}
+#slide2 img:nth-child(5){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(6){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(7){
+	position:absolute;
+	top:400px;
+	right:100px;
+}
+#slide2 img:nth-child(8){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 3
+*******************************/
+
+#slide3 {
+	background-image: url(../images/SeattleSkyline.jpg);
+}
+
+#slide3 .color-filter {
+	background-color:rgba(0,64,102,0.7);
+	color:rgba(238,217,182,0.8);
+}
+
+#slide3 img:first-child{
+	position:absolute;
+	top: 700px;
+	left: 250px;
+}
+#slide3 img:nth-child(2){
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+#slide3 img:nth-child(3){
+	position:absolute;
+	top:150px;
+	left:250px;
+}
+#slide3 img:nth-child(4){
+	position:absolute;
+	top:450px;
+	left:250px;
+}
+#slide3 img:nth-child(5){
+	position:absolute;
+	top:200px;
+	right:300px;
+}
+#slide3 img:nth-child(6){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 4
+*******************************/
+#slide4 {
+	background-image: url('../images/HohRainforest.jpg');
+}
+#slide4 .color-filter {
+	background-color:rgba(77,79,83,0.8);
+	color:rgba(238,217,182,0.8);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide4 .parallaxbg {
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+#slide4 .parallaxbg a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#slide4 .parallaxbg a:hover {
+	color:rgba(51,51,51,0.5);
+}
+
+/******************************
+ SLIDE 5
+*******************************/
+#slide5 {
+	background-image: url('../images/PublicMarketSign2.jpg');
+}
+#slide5 .color-filter {
+	background-color:rgba(77,79,83,0.8);
+	color:rgba(238,217,182,0.8);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide5 .parallaxbg {
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+#slide5 .parallaxbg a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#slide5 .parallaxbg a:hover {
+	color:rgba(51,51,51,0.5);
+}
+/******************************
+ SLIDE 6
+*******************************/
+#slide6 {
+	background-image: url('../images/ThankYou.jpg');
+}
+#slide6 .color-filter {
+	background-color:rgba(77,79,83,0.8);
+	color:rgba(238,217,182,0.8);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide6 .parallaxbg {
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+#slide6 .parallaxbg a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#slide6 .parallaxbg a:hover {
+	color:rgba(51,51,51,0.5);
+}
+/******************************
+ SLIDE 7
+*******************************/
+
+#slide7{
+	background-image:url(../images/Slide4/map.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#slide7 .parallaxbg {
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+#slide7 .parallaxbg a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#slide7 .parallaxbg a:hover {
+	color:rgba(51,51,51,0.5);
+}
