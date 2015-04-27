@@ -9,7 +9,7 @@ notifications:
       - jack@brownjohnf.com
       - emily@emilyschauer.com
 script:
-  - echo true
+  - bundle exec rake test
 env:
   global:
     - APP_NAME=bs-wedding-prod
