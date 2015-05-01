@@ -3,6 +3,8 @@ GEM
   specs:
     rack (1.6.0)
     rake (10.4.2)
+    shotgun (0.9.1)
+      rack (>= 1.0)
 
 PLATFORMS
   ruby
@@ -10,3 +12,4 @@ PLATFORMS
 DEPENDENCIES
   rack
   rake
+  shotgun
