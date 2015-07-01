@@ -1,4 +1,5 @@
 color_palette.jpg
 shippable.yml
 *.sublime*
+.git
 
